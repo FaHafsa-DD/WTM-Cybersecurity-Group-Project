@@ -34,7 +34,7 @@ DEFAULT_RISK = (
 
 DEFAULT_RECOMMENDATION = (
     "Confirm the service and version, review its configuration, "
-    "and assess whether a security weakness exists."
+    "and assess whether a security weakness exists.(Draft - reviewer to edit.)"
 )
 
 # Prototype data is held in memory and resets when the app restarts.
@@ -290,7 +290,7 @@ def add():
     findings.append(item)
     source_name = "Manual findings"
     flash("Finding added. Review risk and recommendations before export.")
-    return redirect(url_for("index") + "#review-section")
+    return redirect(url_for("index"))
 
 
 @app.post("/update/<fid>")
