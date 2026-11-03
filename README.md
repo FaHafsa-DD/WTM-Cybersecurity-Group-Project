@@ -1,4 +1,4 @@
-# Automated Cybersecurity Assessment & Reporting Assistant
+# Cybersecurity Assessment & Reporting Assistant
 
 A secure, lightweight, Flask-based web application designed to help students and beginner security analysts ingest, review, verify, and organize penetration testing or vulnerability scan results into professional, audit-ready reports.
 
@@ -39,6 +39,40 @@ cybersecurity-project/
 ```
 ---
 
+## Installation & Local Setup
+
+Follow these steps to set up and run the project locally on your machine:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/FaHafsa-DD/WTM-Cybersecurity-Group-Project.git
+cd cybersec-project
+```
+
+### 2. Create and Activate a Virtual Environment
+On macOS / Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+On Windows (Command Prompt / PowerShell):
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+Install the required Python packages:
+```bash
+pip install Flask defusedxml python-docx
+```
+
+### 4. Run the Application
+Start the local development server:
+```bash
+python app.py
+```
+---
 ## Usage Guide
 
 * **Upload Scan Results:** Upload an Nmap XML scan file or use the manual entry form to input specific findings.
