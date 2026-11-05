@@ -136,8 +136,8 @@ main {
 }
 /* Unique Stat Box Color Themes */
 .stat-findings {
-  background: #eff6ff; /* Light Blue */
-  border-color: #93c5fd; /* Darker Blue Border */
+  background: #eff6ff;
+  border-color: #93c5fd;
 }
 .stat-findings strong,
 .stat-findings span {
@@ -145,8 +145,8 @@ main {
 }
 
 .stat-hosts {
-  background: #f0fdf4; /* Light Green */
-  border-color: #86efac; /* Darker Green Border */
+  background: #f0fdf4;
+  border-color: #86efac;
 }
 .stat-hosts strong,
 .stat-hosts span {
@@ -154,8 +154,8 @@ main {
 }
 
 .stat-missing {
-  background: #fef3c7; /* Light Amber/Yellow */
-  border-color: #fcd34d; /* Darker Amber Border */
+  background: #fef3c7;
+  border-color: #fcd34d;
 }
 .stat-missing strong,
 .stat-missing span {
@@ -163,8 +163,8 @@ main {
 }
 
 .stat-verified {
-  background: #faf5ff; /* Light Purple/Indigo */
-  border-color: #d8b4fe; /* Darker Purple Border */
+  background: #faf5ff;
+  border-color: #d8b4fe;
 }
 .stat-verified strong,
 .stat-verified span {
