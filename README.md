@@ -1,4 +1,4 @@
-# Cybersecurity Assessment & Reporting Assistant
+# Automated Cybersecurity Assessment & Reporting Assistant
 
 A secure, lightweight, Flask-based web application designed to help students and beginner security analysts ingest, review, verify, and organize penetration testing or vulnerability scan results into professional, audit-ready reports.
 
