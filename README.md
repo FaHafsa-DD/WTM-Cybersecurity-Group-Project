@@ -27,7 +27,7 @@ A secure, lightweight, Flask-based web application designed to help students and
 ## Project Structure
 
 ```text
-cybersecurity-project/
+Cybersec_project/
 │
 ├── app.py                  # Main Flask application logic & route handlers
 ├── templates/
@@ -46,7 +46,7 @@ Follow these steps to set up and run the project locally on your machine:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/FaHafsa-DD/WTM-Cybersecurity-Group-Project.git
-cd cybersec-project
+cd Cybersec_project
 ```
 
 ### 2. Create and Activate a Virtual Environment
